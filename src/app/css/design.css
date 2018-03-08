@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Vollkorn+SC:700');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+   background-color : #263238;
+}
+header h1{
+  font-size: 50px;
+  font-family: 'Vollkorn SC', serif;
+  background-color: white;
+  text-align: center;
+  color: #263238;
+}
+.resultatTavla{
+  position: relative;
+  border: 5px solid white;
+  width: 20%;
+  min-width: 200px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.anvendare{
+  border: 1px solid #C62828;
+  background-color: #C62828;
+  width: 65%;
+  min-width: 60%;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 35%;
+  right: 78%;
+}
+.res{
+  text-align: center; 
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px;
+}
+.motstoendare{
+  border: 1px solid #C62828;
+  background-color: #C62828;
+  width: 65%;
+  min-width: 60%;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 35%;
+  right: -40%;
+}
+#resultatText{
+  margin-top: 15px;
+  font-family: 'Anton' , san-serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  min-height: 100px;
+}
+.spelAlternativKontainer{
+  text-align: center;
+}
+.sida{
+   display: inline-block;
+   border: 1px solid white;
+   border-radius: 50%;
+   margin: 10px;
+   padding: 10px;
+   background-color: white;
+   width:calc(33.3333% - 23px);
+   height: auto;
+   cursor: pointer;
+}
+.sida img{
+  width: 100%;
+}
+.sida:hover{
+  opacity: 0.8;
+}
+@media (min-height: 780px){
+.sida{
+  width: 150px; 
+}
+}
+
+
+
